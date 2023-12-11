@@ -1,0 +1,70 @@
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\obj\Debug\net8.0\Parcial II.csproj.AssemblyReference.cache
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\obj\Debug\net8.0\Parcial II.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\obj\Debug\net8.0\Parcial II.AssemblyInfoInputs.cache
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\obj\Debug\net8.0\Parcial II.AssemblyInfo.cs
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\obj\Debug\net8.0\Parcial II.csproj.CoreCompileInputs.cache
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\obj\Debug\net8.0\Parcial II.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\obj\Debug\net8.0\Parcial II.RazorAssemblyInfo.cache
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\obj\Debug\net8.0\Parcial II.RazorAssemblyInfo.cs
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\appsettings.json
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\FireBaseConfig.json
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Parcial II.staticwebassets.runtime.json
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Parcial II.exe
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Parcial II.deps.json
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Parcial II.runtimeconfig.json
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Parcial II.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Parcial II.pdb
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\FirebaseAdmin.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Firebase.Auth.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Firebase.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\FireSharp.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Google.Api.CommonProtos.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Google.Api.Gax.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Google.Api.Gax.Grpc.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Google.Api.Gax.Rest.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Google.Apis.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Google.Apis.Auth.PlatformServices.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Google.Apis.Auth.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Google.Apis.Core.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Google.Cloud.Firestore.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Google.Cloud.Firestore.V1.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Google.Cloud.Location.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Google.LongRunning.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Grpc.Auth.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Grpc.Core.Api.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Grpc.Net.Client.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Grpc.Net.Common.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\LiteDB.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Microsoft.Threading.Tasks.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\System.Net.Http.Extensions.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\System.Net.Http.Primitives.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\System.Linq.Async.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\System.Reactive.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\obj\Debug\net8.0\staticwebassets\msbuild.Parcial II.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\obj\Debug\net8.0\staticwebassets\msbuild.build.Parcial II.props
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Parcial II.props
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Parcial II.props
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\obj\Debug\net8.0\scopedcss\bundle\Parcial II.styles.css
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\obj\Debug\net8.0\scopedcss\projectbundle\Parcial II.bundle.scp.css
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\obj\Debug\net8.0\Parcial II.csproj.CopyComplete
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\obj\Debug\net8.0\Parcial II.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\obj\Debug\net8.0\refint\Parcial II.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\obj\Debug\net8.0\Parcial II.pdb
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\obj\Debug\net8.0\Parcial II.genruntimeconfig.cache
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\obj\Debug\net8.0\ref\Parcial II.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Google.Apis.Storage.v1.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\Google.Cloud.Storage.V1.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\System.Management.dll
+C:\Users\jesus_10v0pvo\OneDrive\Documentos\repos\Parcial II\Parcial II\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Management.dll

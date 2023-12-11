@@ -1,0 +1,182 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<body class="container-fluid">
+    <br />
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <h6>New task</h6>
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <form method="post" action="@Url.Action("Index", "Functionality")">
+                        <input type="text" class="form-control" id="id" name="id" hidden>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="col-md-7">
+                                        <label for="name" class="form-label">Name</label>
+                                        <input type="text" class="form-control" id="name" name="Name" placeholder="Task" required>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <label for="description" class="form-label">Description</label>
+                                        <input type="text" class="form-control" id="description" name="Description" placeholder="To Do" required>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="col-md-7">
+                                        <label for="dueDate" class="form-label">Due date</label>
+                                        <input type="date" class="form-control" id="dueDate" name="DueDate" placeholder="dd/mm/yyyy" required>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <label for="priority" class="form-label">Priority</label>
+                                        <select class="form-select" id="priority" name="Priority" required>
+                                            <option selected disabled>Select</option>
+                                            <option value="Low">Low</option>
+                                            <option value="Medium">Medium</option>
+                                            <option value="High">High</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">Create</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="card">
+        <div class="card-body">
+            <form class="d-flex" role="search" method="post" action="@Url.Action("GetTaskByParameter","Home")">
+                <input class="form-control me-2" type="search" id="parameter" name="parameter" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+    <br />
+    @foreach (var item in ViewBag.TaskData)
+    {
+        <div class="card">
+            <div class="card-body">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item" style="border-color: white">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <h6 class="card-title">@item.Name</h6>
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <p class="card-text">@item.Description</p>
+                                        </div>
+                                        <div class="col-3">
+                                            <p class="card-text">@item.DueDate</p>
+                                        </div>
+                                        <div class="col-2">
+                                            <p class="card-text">@item.Status</p>
+                                        </div>
+                                        <div class="col-2">
+                                            <p class="card-text">@item.Priority</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="container text-center">
+                                    <div class="row">
+                                        <div class="col">
+                                            <form method="post" action="@Url.Action("CompleteTask","Functionality")">
+                                                <input class="form-control" id="id" name="id" value="@item.ID" hidden>
+                                                <input class="form-control" id="doc" name="doc" value="@item.DocumentID" hidden>
+                                                <button type="submit" class="btn btn-outline-success">Completed</button>
+                                            </form>
+                                        </div>
+                                        <div class="col">
+                                            @*<form method="get" action="@Url.Action("GetTask", "Home")">
+                                                <input type="hidden" id="id" name="id" value="@item.ID" />
+                                                <input type="hidden" id="doc" name="doc" value="@item.DocumentID" />
+                                                <button type="submit" class="btn btn-outline-warning">Edit</button>
+                                            </form>*@
+                                            <p>
+                                                <button class="btn btn-outline-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                                                    Edit
+                                                </button>
+                                            </p>
+                                        </div>
+                                        <div class="col">
+                                            <form method="post" action="@Url.Action("DeleteTask","Functionality")">
+                                                <input class="form-control" id="id" name="id" value="@item.ID" hidden>
+                                                <input class="form-control" id="doc" name="doc" value="@item.DocumentID" hidden>
+                                                <button type="submit" class="btn btn-outline-danger">Delete</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="container-fluid">
+                                        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                                            <div class="card card-body">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Update</h5>
+                                                        <br />
+                                                        <form method="post" action="@Url.Action("UpdateTask", "Home")">
+                                                            <input type="text" class="form-control" id="id" name="ID" value="@item.ID" hidden>
+                                                            <div class="container">
+                                                                <div class="row">
+                                                                    <div class="col">
+                                                                        <div class="col-md-7">
+                                                                            <label for="name" class="form-label">Name</label>
+                                                                            <input type="text" class="form-control" id="name" name="Name" placeholder="@item.Name" required>
+                                                                        </div>
+                                                                        <div class="col-md-7">
+                                                                            <label for="description" class="form-label">Description</label>
+                                                                            <input type="text" class="form-control" id="description" name="Description" placeholder="@item.Description" required>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <div class="col-md-7">
+                                                                            <label for="dueDate" class="form-label">Due date</label>
+                                                                            <input type="date" class="form-control" id="dueDate" name="DueDate" placeholder="@item.DueDate" required>
+                                                                        </div>
+                                                                        <div class="col-md-7">
+                                                                            <label for="priority" class="form-label">Priority</label>
+                                                                            <select class="form-select" id="priority" name="Priority" required>
+                                                                                <option selected disabled>Select</option>
+                                                                                <option value="Low">Low</option>
+                                                                                <option value="Medium">Medium</option>
+                                                                                <option value="High">High</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <br />
+                                                                <div class="col-12">
+                                                                    <button type="submit" class="btn btn-primary">Update</button>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</body>
